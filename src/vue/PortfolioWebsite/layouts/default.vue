@@ -92,8 +92,8 @@ export default {
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'Deployment',
-          to: '/deployment',
+          title: 'CI/CD',
+          to: '/deploy',
         },
         {
           icon: 'mdi-chart-bubble',

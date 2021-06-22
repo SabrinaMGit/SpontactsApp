@@ -1,10 +1,15 @@
 <template>
   <v-row>
-    <v-col v-for="n in images" :key="n" class="d-flex child-flex" cols="4">
+    <v-col
+      v-for="(n, index) in images"
+      :key="index"
+      class="d-flex child-flex"
+      cols="4"
+    >
       <router-link :to="`/mobile/${n.name}`">
         <v-img
-          :src="require(`@/assets/${n.name}.png`)"
-          :lazy-src="require(`@/assets/${n.name}.png`)"
+          :src="require(`@/assets/gridimages/${n.name}.png`)"
+          :lazy-src="require(`@/assets/gridimages/${n.name}.png`)"
           aspect-ratio="1"
           class="white lighten-2"
         >
