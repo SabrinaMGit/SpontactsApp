@@ -15,6 +15,9 @@
         <v-btn
           color="blue"
           text
+          :to="{ name: 'Home' }"
+          exact
+          icon
         >
 
           <v-icon>mdi-home</v-icon>
@@ -23,6 +26,9 @@
         <v-btn
           color="blue"
           text
+          :to="{ name: 'Dashboard' }"
+          exact
+          icon
         >
 
           <v-icon>mdi-map-marker</v-icon>
@@ -31,6 +37,9 @@
         <v-btn
           color="blue"
           text
+          :to="{ name: 'Newactiv' }"
+          exact
+          icon
         >
 
           <v-icon>mdi-plus-circle</v-icon>
@@ -39,6 +48,9 @@
         <v-btn
           color="blue"
           text
+          :to="{ name: 'Home' }"
+          exact
+          icon
         >
 
           <v-icon>mdi-forum-outline</v-icon>

@@ -60,6 +60,10 @@ const router = new Router({
       route('', 'Newactiv'),
       redirect(''),
     ]),
+    layout('/friends', 'Frontend', [
+      route('', 'Friends'),
+      redirect(''),
+    ]),
     redirect('/'),
   ],
 })

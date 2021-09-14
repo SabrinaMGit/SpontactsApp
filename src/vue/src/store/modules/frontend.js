@@ -14,7 +14,7 @@ const state = {
     {
       icon: 'mdi-account-supervisor-circle-outline',
       text: 'Meine Freunde',
-      to: { name: 'Profile' },
+      to: { name: 'Friends' },
     },
     {
       icon: 'mdi-human',
