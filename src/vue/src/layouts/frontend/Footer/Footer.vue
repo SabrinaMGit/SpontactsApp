@@ -48,7 +48,7 @@
         <v-btn
           color="blue"
           text
-          :to="{ name: 'Home' }"
+          :to="{ name: 'Chat' }"
           exact
           icon
         >

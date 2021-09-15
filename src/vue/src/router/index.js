@@ -64,6 +64,10 @@ const router = new Router({
       route('', 'Friends'),
       redirect(''),
     ]),
+    layout('/chat', 'Frontend', [
+      route('', 'Chat'),
+      redirect(''),
+    ]),
     redirect('/'),
   ],
 })
